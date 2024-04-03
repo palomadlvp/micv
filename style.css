@@ -1,0 +1,27 @@
+.fila {
+  display: flex;
+}
+
+.columna {
+  margin: 5% 4%;
+  width: 50%;
+}
+
+#imagen {
+  border-radius: 5%;
+}
+
+.boton {
+  width: 115px;
+  height: 30px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 7px;
+  color: black;
+}
+
+.boton:hover {
+  background-color: black;
+  color: white;
+}
