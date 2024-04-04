@@ -1,68 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Hola Mundo</title>
+<html>
+    <head>
+        <title>Mi CV</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Mi nombre</h1>
+            <h2>Mi profesion</h2>
+        </header>
+        <nav>
+          <a href="#acerca-de-mi">Acerca de mi</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#Experiencia">Experiencia</a>
+        </nav>
+        <main>
+          <section id="acerca-de-mi">
+              <h2>Acerca de mi</h2>
+              <p>loren ipsum</p>
+          </section>
+          <section id="Habilidades">
+            <h2>Habilidades</h2>
+            <ol>
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>HTLM</li>
+              <li>Mongo DB</li>
+              <li>React</li>
+              <li>NodeJS</li>
+            </ol>
+          </section>
+          <section id="Experiencia">
+            <h2>Experiencia</h2>
+            <ol>
+              <li>Trabajo 1</li>
+                <ul>
+                  <li>Diseñadora Jr</li>
+                  <li>Diseñadora Jr</li>
+                </ul>
+              <li>Trabajo 2</li>
+                <ul>
+                  <li>Diseñadora Jr</li>
+                  <li>Diseñadora Jr</li>
+                </ul>
+            </ol>
+          </section>
+          <section>
+          
+          </section>
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h4>Maria.com</h4>
-    </header>
-    <nav>
-      <a href="" class="boton">Proyectos</a>
-      <a href="" class="boton">Sobre mí</a>
-      <a href="" class="boton">Contacto</a>
-    </nav>
-    <main>
-      <section class="fila">
-        <section class="columna">
-          <h1>Sobre mí</h1>
-          <h3>Hola! Soy María, programadora MERN</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris
-            cursus mattis molestie a. Sagittis aliquam malesuada bibendum arcu
-            vitae elementum curabitur vitae. Tincidunt id aliquet risus feugiat.
-            Ultrices dui sapien eget mi proin. Neque gravida in fermentum et
-            sollicitudin. Mi sit amet mauris commodo quis imperdiet massa
-            tincidunt nunc. Sed risus ultricies tristique nulla aliquet enim
-            tortor at. Fames ac turpis egestas maecenas pharetra. Id aliquet
-            risus feugiat in ante metus. Nulla facilisi etiam dignissim diam
-            quis enim lobortis scelerisque. Odio ut enim blandit volutpat
-            maecenas. Et netus et malesuada fames ac turpis egestas. Quis enim
-            lobortis scelerisque fermentum. Erat imperdiet sed euismod nisi
-            porta lorem. Est sit amet facilisis magna etiam. Varius sit amet
-            mattis vulputate enim nulla aliquet porttitor. Justo donec enim diam
-            vulputate ut pharetra sit amet aliquam.
-          </p>
+
+          
+
+        </main>
+        <section class="blue">
+                <img src="https://cdn.fifakitcreator.com/kits/2023/09/25/6511e24186151.jpg" height="150" alt="Foto Bandera"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam sunt architecto voluptatibus facilis provident rem consequuntur mollitia soluta maiores eum, ab autem voluptas praesentium accusantium assumenda totam sit rerum!
+            </p>
+            <ol>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ol>
         </section>
-        <section class="columna">
-          <img src="foto.jpg" alt="" srcset="" id="imagen" />
+        <section>
+            <h2 id="productos">sección de contacto</h2>
+
+            <table border="2" class="blue">
+                <tr class="blue">
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+                <tr class="blue">
+                    <td style="background-color: red;">Prod 1</td>
+                    <td>Desc 1</td>
+                    <td>Precio 1</td>
+                </tr>
+                <tr class="blue">
+                    <td>Prod 2</td>
+                    <td>Desc 2</td>
+                    <td>Preciopersonal 2</td>
+                </tr>
+            </table>
         </section>
-      </section>
-    </main>
-    <footer class="fila">
-      <a href="" style="width: 50%">Maria.com</a>
-      <table style="width: 50%">
-        <tr>
-          <td>Topic</td>
-          <td>Topic</td>
-          <td>Topic</td>
-        </tr>
-        <tr>
-          <td>Page</td>
-          <td>Page</td>
-          <td>Page</td>
-        </tr>
-        <tr>
-          <td>Page</td>
-          <td>Page</td>
-          <td>Page</td>
-        </tr>
-      </table>
-    </footer>
-  </body>
+        <section>
+            <form action="#" class="blue">
+                <!--<label for="nombre">Nombre</label>-->
+                <input name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre">
+                <input name="correo" type="email" id="correo" placeholder="Ingrese su correo"><br>
+                <textarea placeholder="Ingrese su mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <footer>
+            <a href="#">recargar sitio</a>
+        </footer>
+    </body>
 </html>
