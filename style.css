@@ -40,6 +40,7 @@ nav{
 nav a{
     padding: 10px;
     text-decoration: none;
+    color:beige
 }
 section{
     padding: 30px;
@@ -52,7 +53,7 @@ section{
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgb(115, 163, 162);
+    background-color: rgb(121, 141, 140);
     color: aliceblue;
 }
 
@@ -83,6 +84,7 @@ section{
 #Proyectos ul li a:hover{
     text-decoration: underline;
     color: black;
+    cursor: pointer;
 }
 
 #Habilidades ul li:hover{
